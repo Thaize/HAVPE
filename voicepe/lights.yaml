@@ -421,9 +421,9 @@ light:
     initial_state:
       color_mode: rgb
       brightness: 66%
-      red: 9.4%
-      green: 73.3%
-      blue: 94.9%
+      red: 60%
+      green: 0%
+      blue: 100%
     segments:
       - id: leds_internal
         from: 7
