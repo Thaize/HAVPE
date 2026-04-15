@@ -421,7 +421,7 @@ light:
     initial_state:
       color_mode: rgb
       brightness: 66%
-      red: 60%
+      red: 88.2%
       green: 0%
       blue: 100%
     segments:
