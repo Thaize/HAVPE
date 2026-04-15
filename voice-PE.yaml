@@ -1,8 +1,8 @@
 substitutions:
   # WAKE WORD SENSITIVITY (probability cutoff)
-  wake_cutoff_slight: "250"     # ~0.98
-  wake_cutoff_moderate: "245"   # ~0.96
-  wake_cutoff_very: "222"       # ~0.87
+  wake_cutoff_slight: "253"     # ~0.98
+  wake_cutoff_moderate: "250"   # ~0.96
+  wake_cutoff_very: "240"       # ~0.87
 
   # Phases of the Voice Assistant
   voice_assist_idle_phase_id: '1'
