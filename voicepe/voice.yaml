@@ -80,6 +80,7 @@ micro_wake_word:
                                 id: external_media_player
                           # Start the voice assistant and play the wake sound, if enabled
                           else:
+                            - micro_wake_word.stop:
                             - if:
                                 condition:
                                   switch.is_on: wake_sound
@@ -88,7 +89,8 @@ micro_wake_word:
                                       id: play_sound
                                       priority: true
                                       sound_file: "wake_word_triggered_sound"
-                                  - delay: 300ms
+                                  - delay: 500ms
+                            - micro_wake_word.start:
                             - voice_assistant.start:
                                 wake_word: !lambda return wake_word;
 
