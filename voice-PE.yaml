@@ -1,8 +1,8 @@
 substitutions:
   # WAKE WORD SENSITIVITY (probability cutoff)
-  wake_cutoff_slight: "254"     # ~0.98
-  wake_cutoff_moderate: "252"   # ~0.96
-  wake_cutoff_very: "245"       # ~0.87
+  wake_cutoff_slight: "255"     # ~0.98
+  wake_cutoff_moderate: "254"   # ~0.96
+  wake_cutoff_very: "250"       # ~0.87
 
   # Phases of the Voice Assistant
   voice_assist_idle_phase_id: '1'
@@ -22,7 +22,7 @@ substitutions:
   mute_switch_on_sound_file: https://github.com/esphome/home-assistant-voice-pe/raw/dev/sounds/mute_switch_on.flac
   mute_switch_off_sound_file: https://github.com/esphome/home-assistant-voice-pe/raw/dev/sounds/mute_switch_off.flac
   timer_finished_sound_file: https://github.com/esphome/home-assistant-voice-pe/raw/dev/sounds/timer_finished.flac
-  wake_word_triggered_sound_file: https://github.com/esphome/home-assistant-voice-pe/raw/dev/sounds/wake_word_triggered.flac
+  wake_word_triggered_sound_file: https://raw.githubusercontent.com/Thaize/HAVPE/refs/heads/main/wakeSounds/star_treck_computer_work_beep.flac
   center_button_press_sound_file: https://github.com/esphome/home-assistant-voice-pe/raw/dev/sounds/center_button_press.flac
   center_button_double_press_sound_file: https://github.com/esphome/home-assistant-voice-pe/raw/dev/sounds/center_button_double_press.flac
   center_button_triple_press_sound_file: https://github.com/esphome/home-assistant-voice-pe/raw/dev/sounds/center_button_triple_press.flac
