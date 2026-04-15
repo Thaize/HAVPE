@@ -461,6 +461,7 @@ script:
             switch.is_off: timer_ringing
           then:
             - micro_wake_word.enable_model: stop
+            - lambda: id(stop).set_probability_cutoff(230);
             - wait_until:
                 not:
                   media_player.is_announcing:
