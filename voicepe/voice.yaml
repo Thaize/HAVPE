@@ -45,7 +45,7 @@ micro_wake_word:
   models:
     - model: ${wake_word_model_url}
       id: ${wake_word_name}
-    - model: https://github.com/kahrendt/microWakeWord/releases/download/stop/stop.json
+    - model: https://github.com/OHF-Voice/micro-wake-word/releases/download/stop/stop.json
       id: stop
       internal: true
   vad:
